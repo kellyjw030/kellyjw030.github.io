@@ -13,8 +13,8 @@ function LabComply() {
       <section id="project-info" className="on-load-animation-500 flex justify-center">
         <ProjectInfo
         contributions={[
-          "Labs Management page (Frontend and backend)",
-          "Integration of camera feed to dashboad",
+          "Dashboard (Frontend and backend)",
+          "Integration of camera feed to dashboard",
           "Detection Pipeline (Human to food/ drink association)",
           "Configuring Docker for containers to access host machine GPUs"
         ]}
@@ -32,7 +32,12 @@ function LabComply() {
           "Email and Telegram notification to inform lab personnel of repeated violations"
         ]}
         images={[]}
-        singleImages={[]}
+        singleImages={[
+        {
+          image: "/images/lab-comply/lab-comply-detections.png",
+          caption: "Noncompliance event indicated with bounding boxes",
+        }
+      ]}
         />
       </section>
 

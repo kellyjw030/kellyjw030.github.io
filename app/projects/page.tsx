@@ -3,6 +3,12 @@ import Header from "@/components/Header"
 import ProjectCard from "@/components/ProjectCard"
 import Title from '@/components/Title'
 import Footer from '@/components/Footer'
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Kelly Teo | Projects'
+};
+
 
 function Work() {
   return (

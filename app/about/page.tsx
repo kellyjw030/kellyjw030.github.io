@@ -3,6 +3,11 @@ import Header from "@/components/Header"
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Kelly Teo | About'
+};
 
 function About() {
   return (
@@ -17,8 +22,8 @@ function About() {
             <div>
               <p className="pt-7">
                 My journey into software engineering
-                began with programming simple plugins in digital content creation programs, which
-                led me to pursue it at SIT. I have hands-on experience building applications for web as well as mobile,
+                began with scripting in computer graphics programs, which
+                led me to pursue more about programming at SIT. I have hands-on experience building applications for web as well as mobile,
                 and I’m always learning new things to expand my skills and take on new challenges.
               </p>
               <div className="mt-5">
