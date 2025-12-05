@@ -22,7 +22,7 @@ const ProjectInfo: React.FC<ProjectInfoProps> = ({contributions, duration, brief
         <p className="text-gray-700 tracking-widest text-sm py-4">RESPONSIBILITIES</p>
         {
           contributions.map((contribution, idx) => (
-            <p key={idx} className="text-black tracking-widest pb-2">
+            <p key={idx} className="text-black pb-2">
               {contribution}
             </p>
           ))
@@ -42,7 +42,7 @@ const ProjectInfo: React.FC<ProjectInfoProps> = ({contributions, duration, brief
       </div>
       <div className="lg:col-start-2 col-start-1">
         <p className="text-gray-700 tracking-widest text-sm py-4">PROJECT SUMMARY</p>
-        <p className="text-black pb-2 tracking-widest leading-7">{brief}</p>
+        <p className="text-black pb-2 leading-7">{brief}</p>
       </div>
       
       <hr className="col-span-2 text-gray-200 mt-5"></hr>
@@ -56,7 +56,6 @@ const ProjectInfo: React.FC<ProjectInfoProps> = ({contributions, duration, brief
           }
         </ul>
       </div>
-      
       <div className="col-span-2">
 
         {images.map((imgGroup, idx) => (

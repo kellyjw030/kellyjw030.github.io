@@ -19,7 +19,7 @@ return (
         />
       ))}
     </div>
-    <p className="mt-2 text-sm text-gray-700 text-center">{imageGroup.caption}</p>
+    <p className="mt-2 text-sm text-gray-500 text-center">{imageGroup.caption}</p>
   </div>
 );
 

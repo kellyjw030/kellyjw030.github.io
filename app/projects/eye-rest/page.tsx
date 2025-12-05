@@ -12,7 +12,7 @@ function EyeRest() {
       
       <section id="project-info" className="on-load-animation-500 flex justify-center">
         <ProjectInfo
-        contributions={["UI", "Integration of Google MediaPipe Face Landmark Detection"]}
+        contributions={["UI Components", "Integration of Google MediaPipe Face Landmark Detection"]}
         duration="Feb 2025 – Apr 2025"
         brief="A mobile application that utilizes eye tracking to perform guided eye exercises
         via the mobile camera, and alerts users to perform these exercises to reduce eye strain.

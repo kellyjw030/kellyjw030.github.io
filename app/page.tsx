@@ -18,7 +18,8 @@ export default function Home() {
               </p>
               <div className="col-start-1 lg:col-start-2 mt-5">
                 <h2 className="text-2xl font-black pb-4">SKILLS</h2>
-                <p>Python, Flask, TypeScript, JavaScript, Next.js, Node.js, React, Kotlin, Jetpack Compose, PHP, C</p>
+                <p>Python, TypeScript, JavaScript, Node.js, Kotlin, PHP, C</p>
+                <p>Flask, Next.js, React, Jetpack Compose</p>
               </div>
             </div>
 

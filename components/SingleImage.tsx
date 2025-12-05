@@ -16,8 +16,13 @@ return (
         alt={singleImage.caption || "Image"}
       />
       {singleImage.caption && (
-        <p className="mt-2 text-sm text-gray-700 text-center">
+        <p className="mt-2 text-sm text-gray-500 text-center">
           {singleImage.caption}
+        </p>
+      )}
+      {singleImage.description && (
+        <p className="mt-2 text-md text-gray-700">
+          {singleImage.description}
         </p>
       )}
     </div>
