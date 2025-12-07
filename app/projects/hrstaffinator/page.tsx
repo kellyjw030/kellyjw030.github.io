@@ -25,13 +25,17 @@ function HRStaffinator() {
           caption: "Administrative Control Panel",
         },
         {
-          image: "/images/hrstaffinator/hrstaffinator-claim.png",
+          image: "/images/hrstaffinator/hrstaffinator-claim-eg.png",
           caption: "Claims Submission Page",
         },
         {
-          image: "/images/hrstaffinator/hrstaffinator-ot.png",
-          caption: "Overtime Hours Page",
+          image: "/images/hrstaffinator/hrstaffinator-payroll.png",
+          caption: "Payroll Page",
         },
+        // {
+        //   image: "/images/hrstaffinator/hrstaffinator-ot.png",
+        //   caption: "Overtime Hours Page",
+        // },
         {
           image: "/images/hrstaffinator/hrstaffinator-profile.png",
           caption: "Profile Page",
