@@ -49,6 +49,13 @@ function Work() {
         tech={['Python', 'Streamlit', 'Route4Me API', 'OneMap API']}
         />
 
+        <ProjectCard 
+        projectName = "Steganography Application"
+        pageLink="/projects/steganography"
+        projectDesc="A tool to hide data within other image, video or audio files. Supports a high variety of payload formats, embedding patterns, and optional keys."
+        thumbnail="/images/steganography-thumbnail.png"
+        tech={['Python', 'OpenCV']}
+        />
       </div>
 
       <Footer></Footer>

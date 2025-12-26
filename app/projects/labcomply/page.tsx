@@ -16,8 +16,8 @@ function LabComply() {
           "Detection Pipeline (Human to food/ drink association)",
           "Integration of surveillance equipment to the system",
           "Integrating host machine GPUs with Docker containers",
-          "Dashboard (Frontend and backend)",
-          "Documentation and user manual"
+          "Some frontend and backend dev for the dashboard",
+          "Technical documentation, diagrams, and user manuals"
         ]}
         duration="May 2025 – Nov 2025"
         brief="Bringing food and drinks into these spaces heightens the chances of spillage and the presence
