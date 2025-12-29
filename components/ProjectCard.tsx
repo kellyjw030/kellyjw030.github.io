@@ -16,7 +16,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ projectName, pageLink, projec
       <img
         src={thumbnail}
         alt={projectName + " Thumbnail"}
-        className=""
+        className="w-full h-full object-cover"
       ></img>
     </div>
     <h5 className="mb-2 text-2xl tracking-tight text-gray-900 text-black pt-1">{projectName}</h5>

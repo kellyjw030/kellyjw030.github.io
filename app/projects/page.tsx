@@ -37,7 +37,7 @@ function Work() {
         pageLink="/projects/eye-rest"
         projectDesc="A android application that helps users manage their eye health with guided eye exercises
         powered by facial landmark detection."
-        thumbnail="/images/eye-rest/eye-rest-thumbnail.jpg"
+        thumbnail="/images/eye-rest-thumbnail.jpg"
         tech={['Kotlin', 'Jetpack Compose', 'Google MediaPipe']}
         />
 
@@ -54,8 +54,9 @@ function Work() {
         pageLink="/projects/steganography"
         projectDesc="A tool to hide data within other image, video or audio files. Supports a high variety of payload formats, embedding patterns, and optional keys."
         thumbnail="/images/steganography-thumbnail.png"
-        tech={['Python', 'OpenCV']}
+        tech={['Python', 'OpenCV', 'Tkinter']}
         />
+
       </div>
 
       <Footer></Footer>

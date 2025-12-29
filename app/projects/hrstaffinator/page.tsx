@@ -41,7 +41,7 @@ function HRStaffinator() {
           caption: "Profile Page",
         },
         ]}
-            
+        projectLink = ""    
         />
       </section>
       

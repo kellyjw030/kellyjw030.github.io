@@ -34,17 +34,18 @@ function LabComply() {
         ]}
         images={[]}
         singleImages={[
-        {
-          image: "/images/lab-comply/lab-comply-detections.png",
-          caption: "Noncompliance event indicated with bounding boxes",
-          description: "The system utilizes RESTful APIs to integrate functions such as automated camera discovery, facial comparison and camera management. This solution enables the seamless addition of multiple cameras, eliminating manual adding processes."
-        },
-        {
-          image: "/images/lab-comply/lab-comply-nc.png",
-          caption: "View a details of noncompliance",
-          description: "Lab safety staff are able to view evidence of the noncompliance through a snapshot and video footage (retrieved from the NVR). The bounding boxes shown in the snapshot indicate the violator and the food/ drink brought in."
-        }
-      ]}
+          {
+            image: "/images/lab-comply/lab-comply-detections.png",
+            caption: "Noncompliance event indicated with bounding boxes",
+            description: "The system utilizes RESTful APIs to integrate functions such as automated camera discovery, facial comparison and camera management. This solution enables the seamless addition of multiple cameras, eliminating manual adding processes."
+          },
+          {
+            image: "/images/lab-comply/lab-comply-nc.png",
+            caption: "View a details of noncompliance",
+            description: "Lab safety staff are able to view evidence of the noncompliance through a snapshot and video footage (retrieved from the NVR). The bounding boxes shown in the snapshot indicate the violator and the food/ drink brought in."
+          }
+        ]}
+        projectLink = ""
         />
         
       </section>

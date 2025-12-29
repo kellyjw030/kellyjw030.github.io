@@ -37,6 +37,7 @@ function EyeRest() {
             caption: "System Architecture",
           }
         ]}
+        projectLink = ""
         />
       </section>
       

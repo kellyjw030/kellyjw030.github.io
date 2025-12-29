@@ -12,9 +12,10 @@ interface ProjectInfoProps {
   features: string[];
   images: ImageGroupType[];
   singleImages: SingleImageType[];
+  projectLink: string;
 }
 
-const ProjectInfo: React.FC<ProjectInfoProps> = ({contributions, duration, brief, tools, features, images, singleImages}) => {
+const ProjectInfo: React.FC<ProjectInfoProps> = ({contributions, duration, brief, tools, features, images, singleImages, projectLink}) => {
 
   return (
     <div className="grid md:grid-cols-1 lg:grid-cols-2 lg:gap-3 p-10 lg:w-[1100px] sm:m-3">
@@ -43,8 +44,12 @@ const ProjectInfo: React.FC<ProjectInfoProps> = ({contributions, duration, brief
       <div className="lg:col-start-2 col-start-1">
         <p className="text-gray-700 tracking-widest text-sm py-4">PROJECT SUMMARY</p>
         <p className="text-black pb-2 leading-7">{brief}</p>
-      </div>
       
+        { projectLink.length > 0 && <a target="_blank" href={projectLink}>Link to project</a> }
+          
+        
+      </div>
+
       <hr className="col-span-2 text-gray-200 mt-5"></hr>
       <div className="col-span-2 pt-7">
         <h2 className="text-gray-700 tracking-widest text-md pb-3">FEATURES</h2>
