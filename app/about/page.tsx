@@ -31,17 +31,20 @@ function About() {
                 <Link className="underline" href="mailto:kellyjw2002@gmail.com">kellyjw2002@gmail.com</Link>
 
               </div>
-              {/* <div className="mt-5">
+              <div className="mt-5">
                 <h2 className="text-md font-black pb-1">LINKS</h2>
                 <div className="flex gap-3">
-                  <Link href="https://www.linkedin.com/in/kelly-teo" target="_blank">
-                  <FontAwesomeIcon icon={faLinkedin} className="w-10"/>
-                  </Link>
+                  
                   <Link href="https://github.com/kellyjw030" target="_blank">
                   <FontAwesomeIcon icon={faGithub} className="w-10"/>
                   </Link>
+
+                  <Link href="https://www.linkedin.com/in/kelly-teo" target="_blank">
+                  <FontAwesomeIcon icon={faLinkedin} className="w-10"/>
+                  </Link>
+
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

@@ -52,10 +52,12 @@ function Work() {
         <ProjectCard 
         projectName = "Steganography Application"
         pageLink="/projects/steganography"
-        projectDesc="A tool to hide data within other image, video or audio files. Supports a high variety of payload formats, embedding patterns, and optional encryption with a password."
+        projectDesc="A tool to hide data within other image, video or audio files. Supports a high variety of payload formats, embedding patterns, and optional encryption."
         thumbnail="/images/steganography-thumbnail.png"
         tech={['Python', 'OpenCV', 'Tkinter']}
         />
+
+
 
       </div>
 

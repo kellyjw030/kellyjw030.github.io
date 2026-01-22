@@ -12,7 +12,7 @@ function BusRouteOptimizer() {
       
       <section id="project-info" className="on-load-animation-500 flex justify-center">
         <ProjectInfo
-        contributions={["Route and Map API Integration", "Grouping Algorithm", "Trip Distance Calculation"]}
+        contributions={["Route and Map API Integration", "Drop-off Point Grouping Algorithm", "Trip Distance Calculation"]}
         duration="Apr 2024 – July 2024"
         brief="Running a travel bus company entails significant operational costs
         due to fuel, maintenance, and Electronic Road Pricing (ERP) tolls. This project aims to
@@ -24,11 +24,12 @@ function BusRouteOptimizer() {
         singleImages={[        
           {
           image: "/images/bus-route-optimizer/bus-route-application.png",
-          caption: "Main Application View",
+          caption: "Main Application View"
           },
           {
           image: "/images/bus-route-optimizer/bus-route-drop-off-pnts.png",
-          caption: "Hotel Grouping (Drop-off point at Green Marker for all passangers staying at hotels marked by Blue Marker)",
+          caption: "Hotel Grouping (Drop-off point at Green Marker for all passengers staying at hotels marked by Blue Marker)",
+          description: "Drop-off points are indicated as Green Markers, all nearby passengers staying at hotels marked by the Blue Marker will drop off at the nearest Green Marker. The groupings take into consideration walking distance from each drop off point, rather than the driving distance so that passengers are not negatively affected. This reduces fuel costs efficiently as drivers need not head to every single hotel location and passenger satisfaction is not sacrificed."
           },
         ]}
         projectLink = ""
